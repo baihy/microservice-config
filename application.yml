@@ -2,13 +2,12 @@
   profiles:
     active: -dev
 
----
-#开环境
+--
+#开发环境
 spring:
   profiles: dev
   application:
     name: microservice-config-dev
-
 
 ---
 # 测试环境
